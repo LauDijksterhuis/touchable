@@ -1,15 +1,15 @@
-import 'package:example/screens/screen1.dart';
-import 'package:example/screens/screen2.dart';
-import 'package:example/screens/screen3.dart';
+// import 'package:example/screens/screen1.dart';
+// import 'package:example/screens/screen2.dart';
+// import 'package:example/screens/screen3.dart';
 import 'package:flutter/material.dart';
-import 'package:touchable/touchable.dart';
+// import 'package:touchable/touchable.dart';
 
 void main() {
   runApp(MaterialApp(
     routes: {
-      'screen1': (ctx) => Screen1(),
-      'screen2': (ctx) => Screen2(),
-      'screen3': (ctx) => Screen3(),
+      'screen1': (ctx) => Container(),
+      'screen2': (ctx) => Container(),
+      'screen3': (ctx) => Container(),
     },
     home: Scaffold(
       body: MyExampleWidget(),
